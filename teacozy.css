@@ -41,7 +41,7 @@ body {
 }
 
 .mission1 {
-    background-image: url("./img-mission-background.jpg");
+    background-image: url("img-mission-background.jpg");
     position: absolute;
     display: flex;
     height: 700px;
@@ -83,7 +83,7 @@ body {
 }
 .locations {
     position: relative;
-    background-image: url("./img-locations-background.jpg");
+    background-image: url("img-locations-background.jpg");
     height: 500px;
     
     
