@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 1200px;
+    justify-content: space-between;
+    font-size: 22px;
+    color: seashell;
+    align-items: center;
+}
+a {
+    justify-content: center;
+    width: 5%;
+    color: seashell;
+    padding: 10px;
+}
+a:hover {
+ color: blue;
+}
+a:active {
+    color: green;
+
+}
+:target {
+    color: white;
+}
+
+}
+.logo {
+   color: seashell;
+    height : 50px; 
+
+}
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: .9;
+}
+
+.mission1 {
+    background-image: url("./img-mission-background.jpg");
+    position: absolute;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+   
+}
+.mission2  {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+    
+}
+
+
+.feature {
+    width: 1200px;
+    margin: 0;
+    position: relative;
+    top: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.products {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.little {
+    
+    height: 200px;
+    width : 300px;
+    margin: 10px;
+}
+.locations {
+    position: relative;
+    background-image: url("./img-locations-background.jpg");
+    height: 500px;
+    
+    
+}
+
+.loco3 {
+    display:inline-flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    margin: 40px;
+    height: 300px;
+    
+       
+}
+
+.footer {
+    display:flex
+    flex-direction: column;
+    height : 200px;
+    justify-content : center;
+}
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+
